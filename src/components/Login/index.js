@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Cookies from 'js-cookie'
 import './index.css'
 
+<<<<<<< HEAD
 const status = {
   initial: 'INITIAL',
   loading: 'LOADING',
@@ -9,11 +10,16 @@ const status = {
   failed: 'FAILED',
 }
 
+=======
+>>>>>>> modiifed
 class Login extends Component {
   state = {
     username: '',
     password: '',
+<<<<<<< HEAD
     apiStatus: status.initial,
+=======
+>>>>>>> modiifed
     isTrue: false,
     errorMsg: '',
     check: true,
@@ -84,6 +90,10 @@ class Login extends Component {
                 className="input"
                 onChange={this.getUserName}
                 value={username}
+<<<<<<< HEAD
+=======
+                placeholder="Username"
+>>>>>>> modiifed
               />
               <br />
 
@@ -98,6 +108,10 @@ class Login extends Component {
                   className="input"
                   onChange={this.getPassword}
                   value={password}
+<<<<<<< HEAD
+=======
+                  placeholder="Password"
+>>>>>>> modiifed
                 />
               ) : (
                 <input
@@ -106,6 +120,10 @@ class Login extends Component {
                   className="input"
                   onChange={this.getPassword}
                   value={password}
+<<<<<<< HEAD
+=======
+                  placeholder="Password"
+>>>>>>> modiifed
                 />
               )}
               <br />
@@ -122,7 +140,11 @@ class Login extends Component {
               <button className="login-button" type="submit">
                 Login
               </button>
+<<<<<<< HEAD
               {isTrue && <p className="error">{errorMsg}</p>}
+=======
+              {isTrue && <p className="error">*{errorMsg}</p>}
+>>>>>>> modiifed
             </div>
           </div>
         </form>

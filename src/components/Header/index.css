@@ -1,11 +1,26 @@
 .header-container {
+<<<<<<< HEAD
   height: 20vh;
+=======
+  height: 10vh;
+>>>>>>> modiifed
   width: 100%;
   padding-left: 30px;
   padding-right: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
+=======
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.sun {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+>>>>>>> modiifed
 }
 
 .header-logo {
@@ -43,3 +58,13 @@
   height: auto;
   margin-top: 0px;
 }
+<<<<<<< HEAD
+=======
+
+.theme-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+>>>>>>> modiifed
